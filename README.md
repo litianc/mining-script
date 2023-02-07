@@ -16,9 +16,10 @@ mkdir /root/ironfish/log -p
 
 3. 下载脚本
 ```
-wget -P /root/ironfish/script https://github.com/litianc/mining-script/blob/main/script/ironfish/mint.sh
-wget -P /root/ironfish/script https://github.com/litianc/mining-script/blob/main/script/ironfish/burn.sh
-wget -P /root/ironfish/script https://github.com/litianc/mining-script/blob/main/script/ironfish/send.sh
+wget -P /root/ironfish/script https://github.com/litianc/mining-script/releases/download/v0.1.0/mint.sh
+
+wget -P /root/ironfish/script https://github.com/litianc/mining-script/releases/download/v0.1.0/burn.sh
+wget -P /root/ironfish/script https://github.com/litianc/mining-script/releases/download/v0.1.0/send.sh
 ```
 
 4. 定时执行
